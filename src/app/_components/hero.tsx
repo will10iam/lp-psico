@@ -1,38 +1,37 @@
 import Image from "next/image";
 import heroImg from "../../../public/hero-image.png";
-import logo from "../../../public/logo.png";
+import logo1 from "../../../public/logo1.png";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export function Hero() {
 	return (
-		<section className="bg-[#f6f2ea] text-white relative overflow-hidden md:h-screen">
+		<section className="bg-[#f6f2ea] text-white relative overflow-hidden">
 			<div>
 				<Image
-					src={heroImg}
+					src={logo1}
 					alt="Hero Image"
 					fill
-					sizes="(max-width: 768px) 0vw, 50vw"
+					sizes="100vw"
 					priority
-					className="opacity-60 lg:hidden"
+					className="lg:hidden"
 				/>
-				<div className="absolute inset-0 bg-black opacity-40 md:hidden"></div>
 			</div>
-			<div className=" md:flex gap-10 bg-[#a8c3a1] px-16 py-6 hidden">
-				<p className="font-bold text-1xl underline underline-offset-8 ">
-					Dr. Helena Ribeiro
+			<div className=" flex justify-start items-center gap-4 bg-[#6c8c7d] px-4 py-4 md:gap-10 md:px-16 md:py-6 opacity-95">
+				<p className="font-bold text-md underline underline-offset-8 ">
+					Dra. Isabel Meireles
 				</p>
-				<p className="text-sm">Psicóloga Clínica</p>
-				<p className="text-sm">@drhelena.psico</p>
+				<p className="md:text-sm text-[10px] ml-6">Psicóloga Clínica</p>
+				<p className="md:text-sm text-[10px]">@dra.isameireles</p>
 			</div>
 
 			<div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
 				<article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 					<div className="space-y-6">
-						<h1 className="text-3xl text-white md:text-4xl lg:text-5xl font-bold leading-10 md:text-[#4b4b4b]">
+						<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10 text-[#4b4b4b]">
 							Transforme sua saúde emocional com acolhimento e empatia
 						</h1>
-						<p className="lg:text-lg md:text-[#4b4b4b] font-serif text-white">
+						<p className="lg:text-lg text-[#4b4b4b] font-serif">
 							Psicoterapia individual para adultos e adolescentes, com foco no
 							seu bem-estar e autoconhecimento.
 						</p>
