@@ -66,13 +66,17 @@ export function Services() {
 
 	return (
 		<section className="bg-[#f6f2ea] py-16">
-			<div className="container mx-auto px-4">
+			<div
+				className="container mx-auto px-4"
+				data-aos="fade-left"
+				data-aos-delay="500"
+			>
 				<h2 className="text-4xl font-bold text-[#4b4b4b]">
 					COMO PODEMOS TE AJUDAR?
 				</h2>
 				<h3 className="italic mb-12">serviços oferecidos</h3>
 
-				<div className="relative">
+				<div className="relative" data-aos="fade-up" data-aos-delay="500">
 					<div className="overflow-hidden" ref={emblaRef}>
 						<div className="flex">
 							{services.map((item, index) => (
@@ -102,13 +106,13 @@ export function Services() {
 
 											<Button
 												asChild
-												className="bg-transparent hover:bg-green-400"
+												className="bg-[#f6f2ea] hover:bg-[#e4e0d9] text-[#4b4b4b] font-semibold"
 											>
 												<Link
 													href={`https://wa.me/5519996602839?text=${item.linkText}`}
 													target="_blank"
 												>
-													<WhatsappLogo className="w-5 h-5" />
+													{/* <WhatsappLogo weight="fill" className="w-5 h-5" /> */}
 													Entrar em contato
 												</Link>
 											</Button>

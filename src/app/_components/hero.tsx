@@ -17,7 +17,11 @@ export function Hero() {
 					className="lg:hidden"
 				/>
 			</div>
-			<div className=" flex justify-start items-center gap-4 bg-[#6c8c7d] px-4 py-4 md:gap-10 md:px-16 md:py-6 opacity-95">
+			<div
+				className=" flex justify-start items-center gap-4 bg-[#6c8c7d] px-4 py-4 md:gap-10 md:px-16 md:py-6 opacity-95"
+				data-aos="fade-down"
+				data-aos-delay="300"
+			>
 				<p className="font-bold text-md underline underline-offset-8 ">
 					Dra. Isabel Meireles
 				</p>
@@ -28,10 +32,18 @@ export function Hero() {
 			<div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
 				<article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 					<div className="space-y-6">
-						<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10 text-[#4b4b4b]">
+						<h1
+							className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10 text-[#4b4b4b]"
+							data-aos="fade-down"
+							data-aos-delay="300"
+						>
 							Transforme sua saúde emocional com acolhimento e empatia
 						</h1>
-						<p className="lg:text-lg text-[#4b4b4b] font-serif">
+						<p
+							className="lg:text-lg text-[#4b4b4b] font-serif"
+							data-aos="fade-right"
+							data-aos-delay="300"
+						>
 							Psicoterapia individual para adultos e adolescentes, com foco no
 							seu bem-estar e autoconhecimento.
 						</p>
@@ -39,7 +51,9 @@ export function Hero() {
 							<Button
 								asChild
 								variant="outline"
-								className="bg-[#6c8c7d] border-none md:border-[#a8c3a1] md:text-[#6c8c7d] md:bg-transparent px-5 py-4 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-[#a8c3a1] hover:text-white transition-colors duration-300"
+								className="bg-[#6c8c7d] border-none px-5 py-4 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-[#a8c3a1] hover:text-white transition-colors duration-300"
+								data-aos="fade-up"
+								data-aos-delay="300"
 							>
 								<Link
 									href={`https://wa.me/5519996602839?text=Olá vim pelo site e gostaria de mais informações`}
@@ -51,7 +65,11 @@ export function Hero() {
 						</div>
 					</div>
 
-					<div className="hidden md:block relative w-[650px] h-[600px] ml-[100px] -mt-36 ">
+					<div
+						className="hidden md:block relative w-[650px] h-[600px] ml-[100px] -mt-36"
+						data-aos="fade-left"
+						data-aos-delay="300"
+					>
 						<Image
 							src={heroImg}
 							alt="Hero Image"

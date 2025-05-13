@@ -11,7 +11,11 @@ export function About() {
 		<section className="bg-[#6c8c7d] py-16 ">
 			<div className="container px-4 mx-auto">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-					<div className="relative">
+					<div
+						className="relative"
+						data-aos="fade-up-right"
+						data-aos-delay="300"
+					>
 						<div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
 							<Image
 								src={about1}
@@ -23,7 +27,11 @@ export function About() {
 								className="object-cover hover:scale-110 duration-300"
 							/>
 						</div>
-						<div className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg border-4 overflow-hidden border-white">
+						<div
+							className="absolute w-40 h-40 right-4 -bottom-8 rounded-lg border-4 overflow-hidden border-white"
+							data-aos="fade-up"
+							data-aos-delay="500"
+						>
 							<Image
 								src={about2}
 								alt="Foto Psico"
@@ -34,9 +42,15 @@ export function About() {
 						</div>
 					</div>
 
-					<div className="space-y-6 mt-10">
+					<div
+						className="space-y-6 mt-8"
+						data-aos="fade-up-left"
+						data-aos-delay="300"
+					>
 						<h2 className="text-4xl font-bold text-white">SOBRE MIM</h2>
-						<h3 className="text-[#d9e7d6]">Quem é a Dra Isabel Meireles?</h3>
+						<h3 className="text-[#d9e7d6] italic">
+							Quem é a Dra Isabel Meireles?
+						</h3>
 						<p className="text-[#d9e7d6]">
 							Sou psicóloga clínica com mais de 10 anos de experiência em
 							atendimento a adolescentes e adultos. Minha missão é acolher com
@@ -67,7 +81,9 @@ export function About() {
 						<div className="flex gap-2">
 							<Button
 								asChild
-								className="bg-[#a8c3a1] text-[#4b4b4b] px-5 py-4 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-[#69915f] hover:text-white transition-colors duration-300"
+								className=" bg-[#f6f2ea] hover:bg-[#e4e0d9] text-[#4b4b4b] px-5 py-4 rounded-md font-semibold flex items-center justify-center w-fit gap-2  hover:text-[#4b4b4b] transition-colors duration-300"
+								data-aos="fade-left"
+								data-aos-delay="500"
 							>
 								<Link
 									href={`https://wa.me/5519996602839?text=Olá vim pelo site e gostaria de mais informações`}
@@ -80,7 +96,9 @@ export function About() {
 
 							<Button
 								asChild
-								className="bg-[#a8c3a1] text-[#4b4b4b] px-5 py-4 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:bg-[#69915f] hover:text-white transition-colors duration-300"
+								className="bg-[#f6f2ea] hover:bg-[#e4e0d9] text-[#4b4b4b] px-5 py-4 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:text-[#4b4b4b] transition-colors duration-300"
+								data-aos="fade-left"
+								data-aos-delay="500"
 							>
 								<Link
 									href={`https://wa.me/5519996602839?text=Olá vim pelo site e gostaria de mais informações`}
