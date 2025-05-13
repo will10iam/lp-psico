@@ -9,7 +9,6 @@ import {
 	Phone,
 	EnvelopeSimple,
 } from "@phosphor-icons/react/dist/ssr";
-import { Pin } from "lucide-react";
 
 export function Footer() {
 	return (
