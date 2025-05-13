@@ -65,11 +65,12 @@ export function Services() {
 	}
 
 	return (
-		<section className="bg-white py-16">
+		<section className="bg-[#f6f2ea] py-16">
 			<div className="container mx-auto px-4">
-				<h2 className="text-4xl font-bold mb-12 text-[#4b4b4b]">
-					SERVIÇOS OFERECIDOS
+				<h2 className="text-4xl font-bold text-[#4b4b4b]">
+					COMO PODEMOS TE AJUDAR?
 				</h2>
+				<h3 className="italic mb-12">serviços oferecidos</h3>
 
 				<div className="relative">
 					<div className="overflow-hidden" ref={emblaRef}>
