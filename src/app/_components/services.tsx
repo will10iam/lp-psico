@@ -2,7 +2,6 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import { Button } from "@/components/ui/button";
-import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
@@ -112,7 +111,6 @@ export function Services() {
 													href={`https://wa.me/5519996602839?text=${item.linkText}`}
 													target="_blank"
 												>
-													{/* <WhatsappLogo weight="fill" className="w-5 h-5" /> */}
 													Entrar em contato
 												</Link>
 											</Button>
