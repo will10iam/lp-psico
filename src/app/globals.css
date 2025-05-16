@@ -2,17 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-
-:root {
-	--font-sans: "Open Sans", sans-serif;
-	--font-serif: "Playfair Display", serif;
-}
-
-body {
-	font-family: var(--font-sans); /* Usando a fonte sans personalizada */
-}
-
 @layer base {
 	:root {
 		--background: 0 0% 100%;

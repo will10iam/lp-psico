@@ -43,20 +43,12 @@ export function Testimonials() {
 
 	return (
 		<section className="bg-[#6c8c7d] py-16">
-			<div
-				className="container px-4 mx-auto"
-				data-aos="fade-down"
-				data-aos-delay="500"
-			>
+			<div className="container px-4 mx-auto">
 				<h2 className="text-4xl font-bold text-center mb-12 text-[#f6f2ea]">
 					DEPOIMENTOS
 				</h2>
 
-				<div
-					className="relative max-w-4xl mx-auto"
-					data-aos="flip-left"
-					data-aos-delay="500"
-				>
+				<div className="relative max-w-4xl mx-auto">
 					<div className="overflow-hidden" ref={emblaRef}>
 						<div className="flex">
 							{testimonials.map((item, index) => (

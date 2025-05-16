@@ -15,11 +15,7 @@ export function Footer() {
 		<section className="bg-[#f6f2ea] py-16">
 			<div className="container mx-auto px-4">
 				<footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
-					<div
-						className="text-[#4b4b4b]"
-						data-aos="fade-up"
-						data-aos-delay="100"
-					>
+					<div className="text-[#4b4b4b]">
 						<h3 className="text-2xl font-semibold mb-2 ">
 							Dra. Isabel Meireles
 						</h3>
@@ -44,11 +40,7 @@ export function Footer() {
 						</div>
 					</div>
 
-					<div
-						className="text-[#4b4b4b]"
-						data-aos="fade-up"
-						data-aos-delay="300"
-					>
+					<div className="text-[#4b4b4b]">
 						<h3 className="text-2xl font-semibold mb-2">Contato </h3>
 						<p className="text-sm flex gap-2 mb-2 items-center">
 							<MapPinSimple className="w-5 h-5" />
@@ -63,11 +55,7 @@ export function Footer() {
 						</p>
 					</div>
 
-					<div
-						className="text-[#4b4b4b]"
-						data-aos="fade-up"
-						data-aos-delay="500"
-					>
+					<div className="text-[#4b4b4b]">
 						<h3 className="text-2xl font-semibold mb-2">Redes Sociais </h3>
 						<div className="flex gap-2">
 							<a href="#">
