@@ -2,12 +2,12 @@
 "use client";
 
 import { ReactNode } from "react";
-import { AosInit } from "./aos-init";
+import { AosInitDynamic } from "./AosInitDynamic";
 
 export function ClientRoot({ children }: { children: ReactNode }) {
 	return (
 		<>
-			<AosInit />
+			<AosInitDynamic />
 			{children}
 		</>
 	);
